@@ -9,5 +9,5 @@ outputs:
     description: 'A comma-separated list of github handles'
 runs:
   using: 'node16'
-  main: 'index.js'
+  main: 'index.mjs'
 
