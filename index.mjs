@@ -1,5 +1,5 @@
 import fetch from 'fetch'
-const core = require('@actions/core');
+import core from '@actions/core'
 
 (async () => {
   // `website` input defined in action metadata file
