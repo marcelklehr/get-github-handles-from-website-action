@@ -3,7 +3,7 @@ import core from '@actions/core'
 
 (async () => {
   // `website` input defined in action metadata file
-  const nameToGreet = core.getInput('website');
+  const website = core.getInput('website');
   console.log(`Scraping ${website}!`);
   const res = await fetch(website)
   const html = await res.text()
