@@ -16,5 +16,6 @@ jobs:
           website: 'https://nextcloud.com/team/'
       # Use the output from the `hello` step
       - name: Get the output
-        run: echo "Nextcloud employees: ${{ steps.scrape.outputs.users }}"
+        run: |
+          echo "Nextcloud employees: ${{ steps.scrape.outputs.users }}"
 
