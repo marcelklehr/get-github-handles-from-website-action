@@ -1,4 +1,4 @@
-import fetch from 'fetch'
+import fetch from 'node-fetch'
 import core from '@actions/core'
 
 (async () => {
