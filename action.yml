@@ -1,0 +1,13 @@
+name: 'Get GitHub handles from website'
+description: 'Scrape all github handles from a website'
+inputs:
+  website:  # id of input
+    description: 'The website to scrape handles from'
+    required: true
+outputs:
+  users: # id of output
+    description: 'A comma-separated list of github handles'
+runs:
+  using: 'node16'
+  main: 'index.js'
+

@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "fetch": "^1.1.0"
+  },
+  "name": "get-github-handles-from-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
